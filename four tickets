@@ -1,0 +1,9 @@
+T = int(input())
+
+for _ in range(T):
+    X = int(input())
+    total_cost = 4 * X
+    if total_cost <= 1000:
+        print("YES")
+    else:
+        print("NO")
