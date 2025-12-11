@@ -1,0 +1,6 @@
+N = int(input())
+
+for _ in range(N):
+    a, b, c = map(int, input().split())
+    second_max = sorted([a, b, c])[1]  # sort and take the middle value
+    print(second_max)
