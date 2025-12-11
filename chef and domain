@@ -1,0 +1,6 @@
+T = int(input())
+
+for _ in range(T):
+    X, Y = map(int, input().split())
+    donation = Y - X  # difference to make their income equal
+    print(donation)
