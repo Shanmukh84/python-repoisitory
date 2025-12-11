@@ -1,0 +1,10 @@
+T = int(input())
+
+for _ in range(T):
+    N, K = map(int, input().split())
+    
+    # Total people = Chef + N friends = N + 1
+    if K >= N + 1:
+        print("YES")
+    else:
+        print("NO")
