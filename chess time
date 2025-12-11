@@ -1,0 +1,7 @@
+T = int(input())
+
+for _ in range(T):
+    N = int(input())
+    total_minutes = N * 60
+    max_games = total_minutes // 20  # integer division
+    print(max_games)
