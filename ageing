@@ -1,0 +1,7 @@
+
+T = int(input())
+
+for _ in range(T):
+    X = int(input())
+    chefina_age = X - 10  # Chefina is 10 years younger than Chef
+    print(chefina_age)
